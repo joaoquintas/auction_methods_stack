@@ -1,0 +1,1 @@
+# auction_methods_stack
