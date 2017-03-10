@@ -1,0 +1,12 @@
+#request constants
+
+#request fields
+string sending_node
+string path
+auction_msgs/Bid bid_data
+
+---
+#response constants
+
+#response fields
+string response_info

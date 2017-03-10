@@ -1,0 +1,120 @@
+<launch>
+	
+<!-- roscore automatico
+  <master auto="start"/>
+  <param name="/use_sim_time" value="true"/>  
+-->
+
+<!-- configura buyers -->
+  <node pkg="saap_pkg" type="buyer.py" name="buyer0" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer1" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer2" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer3" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer4" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer5" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer6" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer7" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer8" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer9" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer10" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer11" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer12" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer13" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer14" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer15" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer16" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer17" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer18" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer19" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer20" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer21" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer22" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer23" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer24" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer25" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer26" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer27" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer28" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer29" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer30" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer31" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer32" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer33" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer34" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer35" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer36" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer37" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer38" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer39" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer40" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer41" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer42" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer43" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer44" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer45" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer46" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer47" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer48" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer49" output="screen" />
+
+<!--  <node pkg="saap_pkg" type="buyer.py" name="buyer50" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer51" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer52" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer53" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer54" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer55" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer56" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer57" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer58" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer59" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer60" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer61" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer62" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer63" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer64" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer65" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer66" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer67" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer68" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer69" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer70" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer71" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer72" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer73" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer74" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer75" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer76" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer77" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer78" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer79" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer80" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer81" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer82" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer83" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer84" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer85" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer86" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer87" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer88" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer89" output="screen" />
+
+  <node pkg="saap_pkg" type="buyer.py" name="buyer90" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer91" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer92" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer93" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer94" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer95" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer96" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer97" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer98" output="screen" />
+  <node pkg="saap_pkg" type="buyer.py" name="buyer99" output="screen" />
+-->
+
+</launch>

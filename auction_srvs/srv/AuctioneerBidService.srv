@@ -1,0 +1,10 @@
+#request constants
+
+#request fields
+auction_msgs/Bid bid_data
+
+---
+#response constants
+
+#response fields
+string response_info

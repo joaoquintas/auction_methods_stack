@@ -1,0 +1,15 @@
+#request constants
+
+#request fields
+string role
+string auction_type
+string sending_node
+string nodes_collected
+auction_msgs/Auction auction_data
+
+---
+#response constants
+
+#response fields
+string response_info
+auction_msgs/Bid bid_data

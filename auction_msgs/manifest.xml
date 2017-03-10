@@ -1,0 +1,19 @@
+<package>
+  <description brief="auction_msgs">
+
+     auciton_msgs
+
+  </description>
+  <author>Joao Manuel Leitao Quintas</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/auciton_msgs</url>
+
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+

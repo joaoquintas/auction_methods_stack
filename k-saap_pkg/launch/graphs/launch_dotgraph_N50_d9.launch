@@ -1,0 +1,204 @@
+<launch>
+	<master auto="start"/>	
+	<param name="/use_sim_time" value="false"/>
+
+	# parameter graph_info = ['N','l','d']
+	<param name="graph_info" value="['10','100','4']"/>
+
+	<node pkg="k-saap_pkg" type="node.py" name="node_1" output="screen">
+		<param name="position" value="['42.3929760341','8.56324448135','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_8,/node_17,/node_6,/node_15,/node_14,/node_13,/node_2,/node_16"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_2" output="screen">
+		<param name="position" value="['59.5421587799','22.4196041745','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_9,/node_17,/node_16,/node_15,/node_14,/node_3,/node_1,/node_26,/node_27,/node_42,/node_25"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_3" output="screen">
+		<param name="position" value="['53.7150207455','36.6971734226','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_9,/node_17,/node_5,/node_4,/node_2,/node_11,/node_26,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_4" output="screen">
+		<param name="position" value="['38.0020211151','49.3058248254','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_9,/node_18,/node_17,/node_5,/node_32,/node_3,/node_34,/node_11,/node_20,/node_33,/node_28,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_5" output="screen">
+		<param name="position" value="['49.8393613989','56.5087035609','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_9,/node_19,/node_18,/node_4,/node_3,/node_11,/node_36,/node_43,/node_20,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_6" output="screen">
+		<param name="position" value="['22.4357327455','4.21644098054','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_8,/node_7,/node_15,/node_13,/node_12,/node_1,/node_10"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_7" output="screen">
+		<param name="position" value="['9.94786892024','2.13758244812','0']"/>
+		<param name="neighbour_nodes_list" value="/node_6,/node_10,/node_13,/node_12,/node_8"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_8" output="screen">
+		<param name="position" value="['22.3360449503','9.06615843714','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_7,/node_6,/node_15,/node_13,/node_12,/node_1,/node_10"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_9" output="screen">
+		<param name="position" value="['43.874982693','39.7896848005','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_17,/node_5,/node_4,/node_3,/node_2,/node_11,/node_15,/node_28,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_10" output="screen">
+		<param name="position" value="['12.1819729815','10.3539298025','0']"/>
+		<param name="neighbour_nodes_list" value="/node_8,/node_7,/node_6,/node_15,/node_13,/node_12"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_11" output="screen">
+		<param name="position" value="['57.0308669107','54.614926141','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_9,/node_19,/node_18,/node_30,/node_5,/node_4,/node_3,/node_37,/node_36,/node_43,/node_20,/node_21,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_12" output="screen">
+		<param name="position" value="['2.53191763917','4.0542695771','0']"/>
+		<param name="neighbour_nodes_list" value="/node_7,/node_6,/node_10,/node_13,/node_8"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_13" output="screen">
+		<param name="position" value="['22.7588808695','13.9989275061','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_8,/node_7,/node_6,/node_15,/node_12,/node_1,/node_10,/node_17"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_14" output="screen">
+		<param name="position" value="['52.6860712065','6.76374776211','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_17,/node_16,/node_15,/node_2,/node_1,/node_26"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_15" output="screen">
+		<param name="position" value="['37.3215189465','12.9548900444','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_9,/node_8,/node_17,/node_6,/node_14,/node_13,/node_2,/node_1,/node_10,/node_16"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_16" output="screen">
+		<param name="position" value="['55.6435555766','1.76354411281','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_17,/node_15,/node_14,/node_2,/node_1"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_17" output="screen">
+		<param name="position" value="['47.4010940505','27.1858975542','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_14,/node_9,/node_3,/node_15,/node_4,/node_13,/node_2,/node_1,/node_26,/node_16,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_18" output="screen">
+		<param name="position" value="['60.8982866863','66.3807451634','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_5,/node_4,/node_35,/node_11,/node_36,/node_43,/node_37,/node_20,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_19" output="screen">
+		<param name="position" value="['55.5418419132','69.5142302137','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_18,/node_5,/node_4,/node_35,/node_11,/node_36,/node_43,/node_37,/node_20,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_20" output="screen">
+		<param name="position" value="['34.3983470049','67.0130068469','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_18,/node_31,/node_5,/node_4,/node_34,/node_11,/node_36,/node_41,/node_43,/node_49,/node_33,/node_28,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_21" output="screen">
+		<param name="position" value="['79.3848639226','54.9800336462','0']"/>
+		<param name="neighbour_nodes_list" value="/node_37,/node_19,/node_18,/node_30,/node_42,/node_11,/node_40,/node_27,/node_24,/node_25,/node_22,/node_23"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_22" output="screen">
+		<param name="position" value="['92.0155400762','44.1394173427','0']"/>
+		<param name="neighbour_nodes_list" value="/node_40,/node_30,/node_42,/node_26,/node_27,/node_24,/node_25,/node_23,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_23" output="screen">
+		<param name="position" value="['93.5998479412','55.9611689808','0']"/>
+		<param name="neighbour_nodes_list" value="/node_30,/node_40,/node_24,/node_25,/node_22,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_24" output="screen">
+		<param name="position" value="['88.9688127072','51.8948856993','0']"/>
+		<param name="neighbour_nodes_list" value="/node_30,/node_40,/node_27,/node_42,/node_25,/node_22,/node_23,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_25" output="screen">
+		<param name="position" value="['86.6893615865','28.1612106814','0']"/>
+		<param name="neighbour_nodes_list" value="/node_40,/node_30,/node_2,/node_42,/node_26,/node_27,/node_24,/node_22,/node_23,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_26" output="screen">
+		<param name="position" value="['73.0948777273','26.8586061345','0']"/>
+		<param name="neighbour_nodes_list" value="/node_17,/node_30,/node_14,/node_3,/node_2,/node_40,/node_27,/node_42,/node_25,/node_22"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_27" output="screen">
+		<param name="position" value="['87.5797685903','27.5971298018','0']"/>
+		<param name="neighbour_nodes_list" value="/node_40,/node_30,/node_2,/node_42,/node_26,/node_24,/node_25,/node_22,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_28" output="screen">
+		<param name="position" value="['19.6079505747','51.3152055458','0']"/>
+		<param name="neighbour_nodes_list" value="/node_4,/node_9,/node_31,/node_33,/node_32,/node_34,/node_41,/node_20,/node_49,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_29" output="screen">
+		<param name="position" value="['37.5209830697','43.3645548815','0']"/>
+		<param name="neighbour_nodes_list" value="/node_39,/node_32,/node_9,/node_17,/node_5,/node_4,/node_3,/node_11,/node_20,/node_33,/node_28"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_30" output="screen">
+		<param name="position" value="['84.6362260694','49.7228146393','0']"/>
+		<param name="neighbour_nodes_list" value="/node_40,/node_42,/node_11,/node_26,/node_27,/node_24,/node_25,/node_22,/node_23,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_31" output="screen">
+		<param name="position" value="['6.3768547224','65.2565325945','0']"/>
+		<param name="neighbour_nodes_list" value="/node_33,/node_32,/node_34,/node_41,/node_44,/node_45,/node_20,/node_47,/node_48,/node_49,/node_28"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_32" output="screen">
+		<param name="position" value="['10.985877852','48.54467525','0']"/>
+		<param name="neighbour_nodes_list" value="/node_31,/node_33,/node_4,/node_34,/node_41,/node_49,/node_28,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_33" output="screen">
+		<param name="position" value="['17.270659487','59.2979486463','0']"/>
+		<param name="neighbour_nodes_list" value="/node_4,/node_31,/node_32,/node_34,/node_41,/node_44,/node_20,/node_49,/node_28,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_34" output="screen">
+		<param name="position" value="['10.5076208073','56.9446412886','0']"/>
+		<param name="neighbour_nodes_list" value="/node_32,/node_31,/node_33,/node_4,/node_41,/node_44,/node_20,/node_49,/node_28"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_35" output="screen">
+		<param name="position" value="['59.2891623675','90.5598052811','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_18,/node_37,/node_36,/node_43"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_36" output="screen">
+		<param name="position" value="['52.1382539912','75.4974738498','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_18,/node_5,/node_35,/node_11,/node_43,/node_37,/node_20"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_37" output="screen">
+		<param name="position" value="['70.682768158','79.8636908198','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_18,/node_35,/node_11,/node_36,/node_43,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_38" output="screen">
+		<param name="position" value="['46.7327427418','76.2834519381','0']"/>
+		<param name="neighbour_nodes_list" value="/node_46,/node_19,/node_18,/node_5,/node_4,/node_35,/node_11,/node_36,/node_43,/node_37,/node_20"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_39" output="screen">
+		<param name="position" value="['43.1151731664','15.548975423','0']"/>
+		<param name="neighbour_nodes_list" value="/node_13,/node_9,/node_8,/node_17,/node_6,/node_15,/node_14,/node_3,/node_2,/node_1,/node_16,/node_29"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_40" output="screen">
+		<param name="position" value="['96.6102309439','39.3177123894','0']"/>
+		<param name="neighbour_nodes_list" value="/node_30,/node_42,/node_26,/node_27,/node_24,/node_25,/node_22,/node_23,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_41" output="screen">
+		<param name="position" value="['7.99440400824','57.0557837363','0']"/>
+		<param name="neighbour_nodes_list" value="/node_31,/node_33,/node_32,/node_34,/node_44,/node_20,/node_49,/node_28"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_42" output="screen">
+		<param name="position" value="['81.6223126649','26.3631374674','0']"/>
+		<param name="neighbour_nodes_list" value="/node_40,/node_30,/node_2,/node_26,/node_27,/node_24,/node_25,/node_22,/node_21"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_43" output="screen">
+		<param name="position" value="['53.1719187695','78.2760148372','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_19,/node_18,/node_5,/node_35,/node_11,/node_36,/node_37,/node_20"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_44" output="screen">
+		<param name="position" value="['8.66696569998','81.9128815666','0']"/>
+		<param name="neighbour_nodes_list" value="/node_31,/node_33,/node_34,/node_41,/node_45,/node_46,/node_47,/node_48,/node_49"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_45" output="screen">
+		<param name="position" value="['6.97723397768','93.3406724125','0']"/>
+		<param name="neighbour_nodes_list" value="/node_31,/node_44,/node_46,/node_47,/node_48,/node_49"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_46" output="screen">
+		<param name="position" value="['25.8084601673','96.0632088855','0']"/>
+		<param name="neighbour_nodes_list" value="/node_38,/node_44,/node_45,/node_47,/node_48,/node_49"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_47" output="screen">
+		<param name="position" value="['7.9088660651','94.0192365035','0']"/>
+		<param name="neighbour_nodes_list" value="/node_31,/node_44,/node_45,/node_46,/node_48,/node_49"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_48" output="screen">
+		<param name="position" value="['13.7337924831','91.1643613264','0']"/>
+		<param name="neighbour_nodes_list" value="/node_31,/node_44,/node_45,/node_46,/node_47,/node_49"/>
+	</node>
+	<node pkg="k-saap_pkg" type="node.py" name="node_49" output="screen">
+		<param name="position" value="['8.3417664149','77.0117400854','0']"/>
+		<param name="neighbour_nodes_list" value="/node_46,/node_31,/node_33,/node_32,/node_34,/node_41,/node_44,/node_45,/node_20,/node_47,/node_48,/node_28"/>
+	</node>
+</launch>

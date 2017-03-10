@@ -1,0 +1,11 @@
+<stack>
+  <description brief="auction_methods_stack">auction_methods_stack</description>
+  <author>Maintained by Joao Manuel Leitao Quintas</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/auction_methods_stack</url>
+  <depend stack="common_msgs" /> <!-- geometry_msgs -->
+  <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- std_msgs, rospy, roscpp -->
+
+</stack>

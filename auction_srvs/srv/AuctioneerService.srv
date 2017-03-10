@@ -1,0 +1,14 @@
+#request constants
+
+#request fields
+string sending_node
+string nodes_collected
+auction_msgs/Auction auction_data
+
+---
+#response constants
+
+#response fields
+string response_info
+string winner_id
+float64 winner_cost

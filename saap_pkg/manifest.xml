@@ -1,0 +1,20 @@
+<package>
+  <description brief="sap_pkg">
+
+     sap_pkg
+
+  </description>
+  <author>Joao Manuel Leitao Quintas</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sap_pkg</url>
+
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="auction_msgs"/>
+  <depend package="auction_srvs"/>
+
+</package>
+
+

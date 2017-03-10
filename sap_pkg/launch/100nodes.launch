@@ -1,0 +1,150 @@
+<launch>
+	
+<!-- roscore automatico
+  <master auto="start"/>
+  <param name="/use_sim_time" value="true"/>  
+-->
+
+<!-- configura nodes -->
+  <node pkg="sap_pkg" type="node.py" name="node0" output="screen">
+  	<param name="position" value="['0','0','0']"/>
+	<param name="neighbour_nodes_list" value="/node1,/node4,/node5"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node1" output="screen">
+  	<param name="position" value="['10','10','0']"/>
+	<param name="neighbour_nodes_list" value="/node0,/node2,/node3,/node4"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node2" output="screen">
+    	<param name="position" value="['20','20','0']"/>
+	<param name="neighbour_nodes_list" value="/node1,/node3,/node4"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node3" output="screen">
+  	<param name="position" value="['30','20','0']"/>
+	<param name="neighbour_nodes_list" value="/node1,/node2"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node4" output="screen">
+  	<param name="position" value="['3','2','0']"/>
+	<param name="neighbour_nodes_list" value="/node0,/node1,/node2"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node5" output="screen">
+  	<param name="position" value="['30','10','0']"/>
+	<param name="neighbour_nodes_list" value="/node0,/node6"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node6" output="screen">
+  	<param name="position" value="['20','30','0']"/>
+	<param name="neighbour_nodes_list" value="/node5,/node7,/node8,/node9"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node7" output="screen">
+  	<param name="position" value="['30','0','0']"/>
+	<param name="neighbour_nodes_list" value="/node6"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node8" output="screen">
+  	<param name="position" value="['0','20','0']"/>
+	<param name="neighbour_nodes_list" value="/node6,/node9"/>
+  </node>
+  <node pkg="sap_pkg" type="node.py" name="node9" output="screen">
+  	<param name="position" value="['15','25','0']"/>
+	<param name="neighbour_nodes_list" value="/node6,/node8"/>
+  </node>
+
+<!--  <node pkg="sap_pkg" type="node.py" name="node10" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node11" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node12" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node13" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node14" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node15" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node16" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node17" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node18" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node19" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node20" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node21" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node22" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node23" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node24" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node25" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node26" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node27" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node28" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node29" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node30" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node31" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node32" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node33" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node34" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node35" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node36" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node37" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node38" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node39" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node40" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node41" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node42" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node43" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node44" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node45" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node46" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node47" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node48" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node49" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node50" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node51" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node52" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node53" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node54" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node55" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node56" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node57" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node58" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node59" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node60" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node61" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node62" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node63" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node64" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node65" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node66" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node67" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node68" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node69" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node70" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node71" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node72" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node73" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node74" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node75" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node76" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node77" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node78" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node79" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node80" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node81" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node82" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node83" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node84" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node85" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node86" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node87" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node88" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node89" output="screen" />
+
+  <node pkg="sap_pkg" type="node.py" name="node90" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node91" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node92" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node93" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node94" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node95" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node96" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node97" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node98" output="screen" />
+  <node pkg="sap_pkg" type="node.py" name="node99" output="screen" />
+-->
+
+</launch>
